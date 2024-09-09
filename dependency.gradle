@@ -1,0 +1,8 @@
+ext {
+
+
+
+    constraintlayout="androidx.constraintlayout:constraintlayout:2.1.4"
+    appcompat = "androidx.appcompat:appcompat:1.7.0"
+    material = "com.google.android.material:material:1.12.0"
+}
