@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.aidootk.gmen.droid'
+    namespace 'com.aidootk.gmenu.droid'
     compileSdk rootProject.ext.compileSdk
 
     defaultConfig {
-        applicationId "com.aidootk.gmen.droid"
+        applicationId "com.aidootk.gmenu.droid"
         minSdk rootProject.ext.minSdk
         targetSdk rootProject.ext.targetSdk
         versionCode rootProject.ext.versionCode

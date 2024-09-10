@@ -1,16 +1,14 @@
-package com.aidootk.gmen;
+package com.aidootk.gmenu.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+import com.aidootk.gmenu.droid.R;
 
-import com.aidootk.gmen.droid.R;
-
-public class HomeActivity extends AppCompatActivity {
+public class PlatformActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_platform);
     }
 }

@@ -13,7 +13,7 @@
         android:theme="@style/Theme.GMenuDroid"
         tools:targetApi="31">
         <activity
-            android:name="com.aidootk.gmen.HomeActivity"
+            android:name="com.aidootk.gmenu.activities.HomeActivity"
             android:exported="false" />
     </application>
 
