@@ -18,18 +18,20 @@
     </LinearLayout>
 
     <LinearLayout
-        design:background="#bbb"
         android:id="@+id/platform_bottom_nav"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        design:background="#666">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
             android:orientation="horizontal">
 
             <ImageView
@@ -45,6 +47,7 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
             android:orientation="horizontal">
 
             <ImageView
@@ -56,12 +59,14 @@
                 android:layout_height="wrap_content"
                 android:text="Back" />
         </LinearLayout>
+
     </LinearLayout>
 
-    <androidx.viewpager2.widget.ViewPager2
+    <GridView
         android:id="@+id/platform_pager"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@id/platform_bottom_nav"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

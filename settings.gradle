@@ -17,3 +17,4 @@ rootProject.name = "GMenuDroid"
 include ':app'
 include ':TKTheme'
 include ':TKTools'
+include ':TKRoms'
