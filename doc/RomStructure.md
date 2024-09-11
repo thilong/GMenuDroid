@@ -12,11 +12,12 @@ roms
 │ │         └ mario.zip.png
 │ ├  kofm.zip                       (rom file)
 │ ├  mario.zip  
-│ └  rpg                            (sub folder)
+│ └  rpg                            (subfolder)
 │       ├  roms.yml
 │       ├  dq3.zip
 │       └  imgs                           (preview image, boxart folder)
-│ │         └ dq3.zip.png  
+│           ├ rpg.png               (subfolder boxart)
+│           └ dq3.zip.png  
 ├   sfc
 └   ps
 ```
@@ -27,7 +28,7 @@ roms
 ``` yml
 name: gba
 fullName: game boy advance
-desc: nintendo game boy advance
+description: nintendo game boy advance
 emulators:
     - name: mgba
       desc: mGBA is a new generation of Game Boy Advance emulator. 
@@ -43,12 +44,12 @@ emulators:
 ``` yml
 - name: Super Mario
   file: mario.zip
-  desc: super mario is a very nice act game powered by nintendo.
+  description: super mario is a very nice act game powered by nintendo.
   emulator: mgba
 
 - name: Super Mario
   file: mario.zip
-  desc: super mario is a very nice act game powered by nintendo.
+  description: super mario is a very nice act game powered by nintendo.
 
 - name: Super Mario
   file: mario.zip
