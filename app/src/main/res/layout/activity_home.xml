@@ -6,5 +6,10 @@
     android:layout_height="match_parent"
     tools:context="com.aidootk.gmenu.activities.HomeActivity">
 
+    <Button
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_50"
+        android:textSize="@dimen/sp_14"
+        android:text="HELP" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
