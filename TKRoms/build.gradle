@@ -28,7 +28,7 @@ android {
 dependencies {
 
     implementation 'com.github.bmoliveira:snake-yaml:v1.18-android'
-    implementation 'com.github.bmoliveira:snake-yaml-annotations:v1.18-android'
+    //implementation 'com.github.bmoliveira:snake-yaml-annotations:v1.18-android'
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'

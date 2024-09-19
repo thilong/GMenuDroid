@@ -57,4 +57,11 @@ public class PlatformParser {
         }
     }
 
+    private void parseGenericPlatform(Path platformPath) {
+        Platform platform = new Platform();
+        platform.setName(platformPath.getFileName().toString().toLowerCase());
+        platform.setPath(platformPath.toString());
+        platforms.add(platform);
+    }
+
 }
